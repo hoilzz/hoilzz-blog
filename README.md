@@ -70,7 +70,7 @@ if you want to deploy github pages, add following script to package.json
 
 ```json
 "scripts": {
-    "deploy": "gatsby build && gh-pages -d public -b master -r 'git@github.com:hoilzz/hoilzz.github.io.git'"
+    "deploy": "gatsby build && gh-pages -d public -b master -r 'git@github.com:${your github id}/${github page name}.github.io.git'"
 }
 ```
 

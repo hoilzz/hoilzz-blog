@@ -1,5 +1,5 @@
 ---
-title: "[루비로 배우는 객체지향 디자인] 5. 오리타입으로 비용 줄이기"
+title: '[루비로 배우는 객체지향 디자인] 5. 오리타입으로 비용 줄이기'
 date: 2018-1-6 22:20:00
 category: book
 ---
@@ -54,27 +54,25 @@ Trip 의 prepare 메서드는 인자로 받은 mechanic 객체에게 prepare_bic
 
 ```typescript
 class Trip {
-  readonly bicycles: array;
-  readonly customers: any;
-  readonly vehicle: any;
+  readonly bicycles: array
+  readonly customers: any
+  readonly vehicle: any
   // 무엇이든 'mechanic' 인자의 클래스가 될 수 있음
   prepare(mechanic) {
-    return mechanic.prepare_bicycles(bicycles);
+    return mechanic.prepare_bicycles(bicycles)
   }
 }
 
 // 우연히 아래 클래스의 인스턴스를 넘겨주면 제대로 작동함
 class Mechanic {
   prepare_bicycles(bicycles) {
-    return bicycles.forEach(b => prepare_bicycle(b));
+    return bicycles.forEach(b => prepare_bicycle(b))
   }
   prepare_bicycle(bicycle) {
     // ...
   }
 }
 ```
-
-![img](./img/ch5-1.jpeg)
 
 - prepare 메서드 자체는 Mechanic 클래스에 의존하지 않음
 - 하지만 prepare-bicycles 라는 메서드에 반응할 수 있는 객체를 수신해야한다는 사실에 의존하고 있음
@@ -86,28 +84,29 @@ class Mechanic {
 
 요구사항이 변경되어
 ㅈ2
+
 - 여행 준비에 Mechanic 뿐만 아니라 trip coordinator, driver 가 필요해졌다고 하자
 - 각 이름에 맞춰 클래스 만들고 Trip 의 prepare 메서드가 인자로 넘어온 객체 각각에게 알맞은 행동을 호출하도록 수정하자
 
 ```typescript
 class Trip {
-  readonly bicycles: array;
-  readonly customers: any;
-  readonly vehicle: any;
+  readonly bicycles: array
+  readonly customers: any
+  readonly vehicle: any
   // 여행 준비과정 복잡
   prepare(preparers) {
     preparers.forEach(function(p) {
       switch (p.constructor.name) {
-        case "Mechanic":
-          preparer.prepare_bicycles(bicycles);
-        case "TripCoordinator":
-          preparer.buy_food(customers);
-        case "Driver":
-          preparer.gas_up(vehicle);
-          preparer.fill_water_tank(vehicle);
+        case 'Mechanic':
+          preparer.prepare_bicycles(bicycles)
+        case 'TripCoordinator':
+          preparer.buy_food(customers)
+        case 'Driver':
+          preparer.gas_up(vehicle)
+          preparer.fill_water_tank(vehicle)
         default:
       }
-    });
+    })
   }
 }
 

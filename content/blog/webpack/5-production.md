@@ -10,7 +10,7 @@ category: webpack
 
 `development`
 
-- strong source map
+- strong source map 
 - localhost server with live reloading or Hot module replacement
 
 `production`

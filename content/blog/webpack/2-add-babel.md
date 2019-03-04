@@ -8,7 +8,7 @@ category: webpack
 
 babel은 JS Compiler다.
 
-바벨은 ES6+ code를 ES5로 변경해준다. 그래서 하위 브라우저(IE..)에 대응할 수 있다.
+바벨은 ES6+ code를 ES5로 변경해준다. 그래서 하위 브라우저(IE..그리고 IE..)에 대응할 수 있다.
 
 바벨 [getting started](https://babeljs.io/docs/en/usage) 제안하는 package를 먼저 설치하자.
 
@@ -18,11 +18,11 @@ npm install @babel/polyfill
 ```
 
 - core : transpile시 이용되는 코어 모듈
-- preset-env : 최신 JS를 이용할 수 있도록 해주는 smart preset. 얘 이용하면 어떤 syntax가 타겟 환경에 맞춰서 transpile되어야 하는지 micromanage가 필요하지 않음. 그냥 얘 사용하면 편안-하고 bundle도 더 작아짐. (자세히 알고싶으면 [링크](https://babeljs.io/docs/en/babel-preset-env))
+- preset-env : 최신 JS를 이용할 수 있도록 해주는 smart preset. 얘 이용하면 어떤 syntax가 타겟 환경에 맞춰서 transpile되어야 하는지 micromanage가 필요하지 않다. 그냥 얘 사용하면 편안-하고 bundle도 더 작아진다. (자세히 알고싶으면 [링크](https://babeljs.io/docs/en/babel-preset-env))
 
-  - babel 설정할 때 또 추가 설명할거임
+  - babel 설정할 때 또 추가 설명하겠다.
 
-- polyfill : ES6+ 환경을 제공한다. 그리고 library/tool 보다는 실제 서비스코드에서 사용된다.
+- polyfill : ES6+ 환경을 제공한다. 그리고 library/tool 이라기 보다는 실제 서비스코드에서 사용된다.
   - new built-in인 Promise, WeakMap 등을 사용할 수 있도록, polyfill은 global scope 혹은 native Prototypes에 추가할 것이다.
 
 그래서 transpile에 사용되는 패키지들은 devDependency로, 서비스 코드에 포함되어야 하는 polyfill은 dependency로 설치한다.
@@ -35,7 +35,7 @@ npm i -D babel-loader
 
 loader를 자세히 알고싶다면.. [링크](https://github.com/hoilzz/TIL/blob/master/FrontEnd/webpack/%EA%B3%B5%ED%99%88%EB%B2%88%EC%97%AD/loader.md)
 
-loader는 걍 전처리기임.
+loader는 걍 전처리기다.
 
 일단,
 

@@ -6,7 +6,7 @@ category: webpack
 
 > 코드를 보려면 [이동](https://github.com/hoilzz/create-react-packzz/tree/3-output)
 
-만약에 서비스하는 앱이라면, 점점 커질 수 있다. [file 이름에 hash를 이용하여](https://webpack.js.org/guides/caching/) static resource에 대해 캐싱할 수 있다.
+만약에 서비스하는 앱이라면, 번들 파일의 사이즈가 점점 커질 수 있다. 그래서 [file 이름에 hash를 이용하여](https://webpack.js.org/guides/caching/) static resource에 대해 캐싱할 수 있다. (캐싱하는 내용은 나중에 다루고, 일단 빌드 결과물과 관련된 output 설정에 대해 알아보자.)
 
 일단, output 이름부터 지정해주자. (사실 안해줘도 되는데 나중에 entry가 여러개가 될 경우를 대비해서 미리 세팅해주자.)
 

@@ -6,7 +6,7 @@ category: webpack
 
 > 코드를 보려면 [이동](https://github.com/hoilzz/create-react-packzz/tree/4-dev-environment)
 
-얘는 production mode에서는 필요없는 설정이다. development mode에서만 필요하다.
+이번 포스팅 내용은 production mode에서는 필요없는 설정이다. development mode에서만 필요하다.
 
 일단 mode를 development로 설정하자.
 

@@ -3,9 +3,9 @@ module.exports = {
   description: `hzz`,
   author: `hoilzz`,
   introduction: `hzz`,
-  siteUrl: ``, // Your blog site url
+  siteUrl: `https://hoilzz.github.io`, // Your blog site url
   social: {
-    twitter: `hoilzz`, // Your Twitter account
+    twitter: `qqwq9999`, // Your Twitter account
     github: `hoilzz`, // Your GitHub account
     medium: ``, // Your Medium account
     facebook: ``, // Your Facebook account

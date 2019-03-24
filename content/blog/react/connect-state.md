@@ -1,6 +1,6 @@
 ---
 title: "connect의 mapStateToProps는 언제 실행될까. 그리고 리렌더링은 언제 어떻게 발생하는가."
-date: 2019-03-24 17:20:30
+date: 2019-3-24 17:20:30
 category: react
 ---
 
@@ -79,5 +79,5 @@ __퍼포먼스__
   - action creator나 reducer에서 연산하여 store에 유지
   - 굳이 mapStateToProps에서 해야한다면 memoized
 
-- `lastState === curentSttate`를 확인하여 mapStateToProps 실행 여부 판단.
+- `lastState === curentState`를 확인하여 mapStateToProps 실행 여부 판단.
 - mapStateToProps가 실행되야 한다면 실행 후에, 리턴된 객체에 대해 `===`으로 shallow equality 비교하여 리렌더링 판단.

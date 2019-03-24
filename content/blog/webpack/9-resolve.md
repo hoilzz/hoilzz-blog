@@ -1,6 +1,6 @@
 ---
 title: '[나만의 웹팩 만들기] 9. resolve'
-date: 2019-02-10 23:02:30
+date: 2019-2-10 23:02:30
 category: webpack
 ---
 

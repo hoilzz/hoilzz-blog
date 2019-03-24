@@ -1,6 +1,6 @@
 ---
 title: '[나만의 웹팩 만들기] 11. eslint, prettier로 편안해지기'
-date: 2019-02-12 23:02:30
+date: 2019-2-12 23:02:30
 category: webpack
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: '[나만의 웹팩 만들기] 1. basic build'
-date: 2019-02-02 23:02:30
+date: 2019-2-2 23:02:30
 category: webpack
 ---
 

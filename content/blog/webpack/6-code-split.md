@@ -1,6 +1,6 @@
 ---
 title: '[나만의 웹팩 만들기] 6. code split'
-date: 2019-02-07 23:02:30
+date: 2019-2-7 23:02:30
 category: webpack
 ---
 

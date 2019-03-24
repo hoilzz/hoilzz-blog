@@ -1,6 +1,6 @@
 ---
 title: "dan의 build-react-app-with-idiomatic-redux 강의 정리"
-date: 2018-09-01 21:20:00
+date: 2018-9-1 21:20:00
 category: react
 ---
 

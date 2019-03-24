@@ -1,6 +1,6 @@
 ---
 title: '[나만의 웹팩 만들기] 8. performance'
-date: 2019-02-09 23:02:30
+date: 2019-2-9 23:02:30
 category: webpack
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: '[나만의 웹팩 만들기] 5. production'
-date: 2019-02-06 23:02:30
+date: 2019-2-6 23:02:30
 category: webpack
 ---
 

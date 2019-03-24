@@ -1,6 +1,6 @@
 ---
 title: "[번역] Normalizing State Shape"
-date: 2018-09-20 14:31:39
+date: 2018-9-20 14:31:39
 category: react
 ---
 

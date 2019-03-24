@@ -1,6 +1,6 @@
 ---
 title: '[나만의 웹팩 만들기] 0. webpack 개념'
-date: 2019-02-01 23:02:30
+date: 2019-2-1 23:02:30
 category: webpack
 ---
 

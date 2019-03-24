@@ -1,6 +1,6 @@
 ---
 title: "connect의 mapStateToProps는 언제 실행될까. 그리고 리렌더링은 언제 어떻게 발생하는가."
-date: 2018-09-01 21:20:00
+date: 2019-03-24 17:20:30
 category: react
 ---
 
